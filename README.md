@@ -4,6 +4,7 @@
 
 * Logg inn i azure med Sonat konto.
 * Lag en ressurs gruppe
+* Lag en Azure Confidential Computing VM i ressurs gruppen. Velg Ubuntu 20.04, SSH nøkkel, Og sett et navn du husker.
 * Åpne for ssh (port 22)
 * Last ned ssh nøkkel og sett riktige rettigheter, feks 0700. ```chmod 0700 <key>```
 
