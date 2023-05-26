@@ -86,9 +86,9 @@ xxd -e <pid>.memory | grep 'aabbccdd'
 * Klon ego repo ``` git clone https://github.com/edgelesssys/ego.git ```
 * Sjekk at det funger med å gå til ```cd samples/helloworld``` og gjøre:
 ```
-ego-go build hello_world.go
-ego sign hello_world
-sudo ego run hello_world
+ego-go build helloworld.go
+ego sign helloworld
+sudo ego run helloworld
 ```
-* Modifiser ```samples/hello_world/hello_world.go``` slik at den også holder et tall du kan lete etter i minnet.
+* Modifiser ```samples/hello_world/helloworld.go``` slik at den også holder et tall du kan lete etter i minnet.
 * Prøv å finne tallet i minnet som over.
