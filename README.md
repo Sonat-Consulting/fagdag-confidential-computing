@@ -54,7 +54,7 @@ go build hello_world.go
 ```
 Og kjøre programmet i bakgrunnen slik:
 ```
-./hello_world.go &
+./hello_world &
 ```
 Nå har vi programmet kjørende i bakgrunnen, og vi vil hente ut minnet fra programmet.
 
