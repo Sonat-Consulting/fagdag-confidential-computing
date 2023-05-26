@@ -79,7 +79,7 @@ sudo sh dumpmem.sh <pid>
 
 Praktisk nok så er 2864434397 i hex aabbccdd, her tolker vi filen som little-endian og søker etter hex verdien.
 ```
-xxd -e dump.huge | grep 'aabbccdd'
+xxd -e <pid>.memory | grep 'aabbccdd'
 ```
 
 ### Oppgave 2
