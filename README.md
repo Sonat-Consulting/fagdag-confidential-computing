@@ -93,3 +93,4 @@ sudo ego run helloworld
 * modifiser enclave.json, og sett ```debug=false```
 * Modifiser ```samples/hello_world/helloworld.go``` slik at den også holder et tall du kan lete etter i minnet.
 * Prøv å finne tallet i minnet som over.
+* Her må vi lete i alle PIDs some ego starter. De kan en finne med ```ps au```.
